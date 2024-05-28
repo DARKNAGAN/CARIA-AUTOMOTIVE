@@ -1,0 +1,20 @@
+Bottle v0.12.25 server starting up (using WSGIRefServer(ssl_context=<ssl.SSLContext object at 0x76624898>))...
+Listening on http://192.168.74.194:8000/
+Hit Ctrl-C to quit.
+
+192.168.74.237 - - [15/May/2024 11:01:16] "GET / HTTP/1.1" 200 4592
+192.168.74.237 - - [15/May/2024 11:01:21] "POST /cmd HTTP/1.1" 200 2
+192.168.74.237 - - [15/May/2024 11:01:21] "POST /cmd HTTP/1.1" 200 2
+192.168.74.237 - - [15/May/2024 11:01:22] "POST /cmd HTTP/1.1" 200 2
+192.168.74.237 - - [15/May/2024 11:01:22] "POST /cmd HTTP/1.1" 200 2
+192.168.74.237 - - [15/May/2024 11:01:34] "POST /cmd HTTP/1.1" 200 2
+192.168.74.237 - - [15/May/2024 11:01:35] "POST /cmd HTTP/1.1" 200 2
+192.168.74.237 - - [15/May/2024 11:01:35] "POST /cmd HTTP/1.1" 200 2
+192.168.74.237 - - [15/May/2024 11:01:35] "POST /cmd HTTP/1.1" 200 2
+192.168.74.237 - - [15/May/2024 11:01:41] "POST /motor_speed_move HTTP/1.1" 200 2
+192.168.74.237 - - [15/May/2024 11:01:41] "POST /cmd HTTP/1.1" 200 2
+192.168.74.237 - - [15/May/2024 11:01:41] "POST /cmd HTTP/1.1" 200 2
+192.168.74.237 - - [15/May/2024 11:01:45] "POST /cmd HTTP/1.1" 200 2
+192.168.74.237 - - [15/May/2024 11:01:45] "POST /motor_speed_move HTTP/1.1" 200 2
+192.168.74.237 - - [15/May/2024 11:01:45] "POST /cmd HTTP/1.1" 200 2
+192.168.74.237 - - [15/May/2024 11:01:54] "GET /css/bootstrap.min.css.map HTTP/1.1" 404 746

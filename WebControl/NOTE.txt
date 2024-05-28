@@ -1,0 +1,3 @@
+crontab -e
+@reboot sudo /usr/bin/motion
+@reboot sh /home/christian/WebControl/webcontrol-launch.sh > /home/christian/WebControl/logs/log.txt 2>&1

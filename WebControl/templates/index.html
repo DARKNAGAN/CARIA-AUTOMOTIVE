@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>admin AUTO1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="fonts/SegmentLED.ttf">
+    <script src="js/jquery.js"></script>   
+</head>
+<body>
+<div class="container" align="center">
+    <h1>Interface d'administration</h1>
+    <div class="card-group">
+        <div class="card text-bg-light mb-3" style="min-width: 350px; max-width: 25rem;">
+            <div class="card-header">Vitesse de déplacement</div>
+            <div class="card-body">
+                <div class="speedometer">
+                    <div class="pointer" id="pointer">
+                        <img src="images/pointer.png" alt="Needle">
+                    </div>
+                </div>
+                <div class="counter led-counter" id="counter">050</div>
+                <input title="speed-level" type="range" min="20" max="100">
+            </div>
+        </div>
+        <div class="card text-bg-light mb-3" style="min-width: 380px; max-width: 25rem;">
+            <div class="card-header">Contrôle des déplacements</div>
+            <div class="card-body">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <button id="forward" class="button_cmd glyphicon glyphicon-arrow-up"> Avancer </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button id='turnleft' class="button_cmd glyphicon glyphicon-arrow-left"> Gauche </button>
+                        </div>
+                        <div class="col">
+                            <button id='stop' class="button_cmd"> STOP </button>    
+                        </div>
+                        <div class="col">
+                            <button id='turnright' class="button_cmd glyphicon glyphicon-arrow-right"> Droite </button>
+                        </div>
+                    </div>
+                        <div class="row">
+                        <div class="col">
+                            <button id='backward' class="button_cmd glyphicon glyphicon-arrow-down"> Reculer </button>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+        <div class="card text-bg-light mb-3" style="min-width: 350px; max-width: 25rem;">
+            <div class="card-header">Caméra</div>
+            <div class="card-body">
+                <img class="rounded mx-auto d-block" src="http://192.168.74.194:8081" width="100%"/>
+            </div>
+        </div>
+    </div>
+    <h1>Test de fonctionnement</h1>
+    <div class="row row-cols-1 row-cols-md-2 g-2">
+        <div class="card text-bg-light m-4" style="max-width: 30rem;">
+            <div class="card-header">Composants</div>
+            <div class="card-body">
+                <div class="button-container">
+                    <label for='obstacle'><input type="checkbox" id='obstacle' class="button_fct btn btn-primary">Module d'obstacles</label>
+                    <label for='motor'><input type="checkbox" id='motor' class="button_fct btn btn-primary">Moteurs et vitesse Guauche|Droite</label>
+                    <label for='servo'><input type="checkbox" id='servo' class="button_fct btn btn-primary">Servo moteur</label>
+                    <label for='lidar'><input type="checkbox" id='lidar' class="button_fct btn btn-primary">Module lidar</label>
+                    <label for='rfidrw'><input type="checkbox" id='rfidrw' class="button_fct btn btn-primary">Module RFID Lecture/Ecriture</label>
+                </div>
+            </div>
+        </div>
+        <div class="card text-bg-light m-4" style="max-width: 30rem;">
+            <div class="card-header">Fonctionnalités</div>
+            <div class="card-body">
+                <div class="button-container">
+                    <label for='ITO'><input type="checkbox" id='ITO' class="button_fct btn btn-primary">Suivi d'objet</label>
+                    <label for='IOA'><input type="checkbox" id='IOA' class="button_fct btn btn-primary">Evitement d'obstacle</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

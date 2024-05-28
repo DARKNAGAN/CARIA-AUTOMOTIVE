@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'SegmentLED';
+    src: url('../fonts/SegmentLED.ttf') format('truetype');
+}
+/* Compteur de vitesse */
+input {
+    margin: 5px 5px 5px 5px;
+    width: 250px;
+}
+.speedometer {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    background: url('../images/speedometer.png') no-repeat center center;
+}
+.counter {
+    position: relative;
+    bottom: 98px;
+    left: 0px;
+    font-size: 48px;
+    text-align: center;
+	color: blue;
+    width: 200px;
+}
+.led-counter {
+    font-family: "SegmentLED", sans-serif;
+}
+.pointer {
+    position: absolute;
+    top: 38px;
+    left: 150px;
+    transform-origin: 49% 92%;
+    transform: translateX(-50%) rotate(0deg);
+    transition: transform 0.5s ease;
+}
+.pointer img {
+    width: 100%;
+    max-height: 120px; /* Reduire la hauteur de l'aiguille */
+    height: auto;
+}
+/* Button de déplacement */
+.button_cmd {
+    margin: 5px 5px 5px 5px;
+    width: 80px;
+    height: 60px;
+    transition: box-shadow 0.3s;
+    border-radius: 50px;
+}
+.button_fct {
+    margin: 10px 15px 10px 15px;
+    width: auto;
+    height: 50px;
+    transition: box-shadow 0.3s;
+    border-radius: 50px;
+}
+/* Button toogle */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+input[type="checkbox"] {
+    margin: 10px 15px 10px 15px;
+    width: 50px;
+    height: 30px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ddd;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+}
+input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    top: 50%;
+    left: 3px;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+input[type="checkbox"]:checked:before {
+    left: calc(100% - 33px);
+}
