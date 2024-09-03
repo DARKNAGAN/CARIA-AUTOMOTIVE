@@ -8,7 +8,7 @@ class AlphaBot(object):
 		self.LIDAR_MODULE.write(b'\x42\x57\x02\x00\x00\x00\x01\x06')
 		self.RED_LIGHT = 17
 		self.OBSTACLE_PIN = 16
-		self.SERVO_PIN = 27
+		self.SERVO_PIN = 22
 		self.IN1 = 12
 		self.IN2 = 13
 		self.ENA = 6
@@ -37,6 +37,7 @@ class AlphaBot(object):
 		self.PWMA.start(0)  # Démarre avec un rapport cyclique de 0 (moteurs arrêtés)
 		self.PWMB.start(0)
 		self.PWMSERVO.start(0)
+		time.sleep(1)
 		GPIO.output(self.RED_LIGHT, GPIO.HIGH)
 
 
@@ -50,16 +51,15 @@ class AlphaBot(object):
 			vitesse = max(vitesse_min, min(vitesse, vitesse_max))
 		return vitesse
 
-	def set_angle(self, angle):
-		if 0 <= angle <= 180:
-			pulse_width_ms = (angle / 180) * (2 - 1) + 1
-			duty_cycle = (pulse_width_ms / 20) * 100
-			self.PWMSERVO.ChangeDutyCycle(duty_cycle)
-			# Calcul du temps nécessaire pour atteindre l'angle donné
-			movement_time = (angle / 60) * 0.15  # 0.12 sec pour 60 degrés
-			time.sleep(movement_time)
-		else:
-			print("Angle hors de portée. Le rapport cyclique doit être compris entre 2,5 et 12,5.")
+	#Set function to calculate percent from angle servo mettre time sleep après la déclaration
+	def set_angle(self, angle) :
+		if angle > 120 or angle < 0 :
+			return False
+		start = 4
+		end = 12.5
+		ratio = (end - start)/120 #Calcul ratio from angle to percent
+		angle_as_percent = angle * ratio
+		return start + angle_as_percent
 
 	def blink_led(self, blink_duration=0.2):
 		self.blinking = True

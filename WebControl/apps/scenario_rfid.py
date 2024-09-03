@@ -10,13 +10,14 @@ Ab = AlphaBot()
 status = "initialization"
 try:
     while True:
-        time.sleep(3)
-        # Ab.set_angle(0)
+        Ab.PWMSERVO.ChangeDutyCycle(Ab.set_angle(0))
+        time.sleep(1)
         print("La porte est actuellement fermée.\nVeuillez approcher votre badge RFID du capteur pour accéder au véhicule.")
         id_rfid, text_rfid = RFID_MODULE.read()
         rfid_content = RFID_MODULE.read()
         if text_rfid == "TEST RFID                                       ":
-            Ab.set_angle(90)
+            Ab.PWMSERVO.ChangeDutyCycle(Ab.set_angle(90))
+            time.sleep(1)
             print(f"Bienvenue, {text_rfid.rstrip()} \nJe suis heureux de pouvoir partager un trajet avec vous !")
             time.sleep(5)
             print("Installez-vous confortablement !")
@@ -26,12 +27,13 @@ try:
                 subprocess.run(['python3', 'apps/itineraire_create.py'], check=True)
                 try:
                     print("Nous préparons votre trajet en toute sécurité.")
-                    Ab.set_angle(0)
+                    Ab.PWMSERVO.ChangeDutyCycle(Ab.set_angle(0))
+                    time.sleep(1)
                     # Changer si nécessaire 'apps/itineraire_suivre.py' en 'apps/itineraire_suivre_emergency.py'
-                    subprocess.run(['python3', 'apps/itineraire_suivre_emergency.py'], check=True)
+                    subprocess.run(['python3', 'apps/itineraire_suivre.py'], check=True)
                     print("Merci d'avoir utilisé notre service !")
+                    Ab.PWMSERVO.ChangeDutyCycle(Ab.set_angle(90))
                     time.sleep(2)
-                    Ab.set_angle(90)
                     print("Nous espérons que vous avez apprécié votre trajet.")
                     time.sleep(2)
                     print("À bientôt avec CARIA !")
@@ -43,11 +45,12 @@ try:
                 print(f"Erreur lors de l'exécution  du script step1_prepare_itineraire: {e}")
                 status = "error"
         elif text_rfid in ["CHRIS                                           "]:
-            Ab.set_angle(90)
+            Ab.PWMSERVO.ChangeDutyCycle(Ab.set_angle(90))
+            time.sleep(1)
             print(f"Bienvenue, {text_rfid.rstrip()}.\nLa porte du véhicule est maintenant ouverte!")
             status = "scenario successful"
         else:
-            Ab.set_angle(0)
+            Ab.PWMSERVO.ChangeDutyCycle(Ab.set_angle(0))
             print("Bonjour, vous n'êtes pas autorisé à entrer dans le véhicule.\nLa porte reste fermée.")
             print(rfid_content)
             time.sleep(2)

@@ -7,17 +7,18 @@ Ab = AlphaBot()
 
 status = "initialization"
 try:
-    Ab.set_angle(0)
+    Ab.PWMSERVO.ChangeDutyCycle(Ab.set_angle(0))
     print("Positionné à 0°")
-    time.sleep(2)
-    Ab.set_angle(90)
+    time.sleep(1)
+    Ab.PWMSERVO.ChangeDutyCycle(Ab.set_angle(90))
     print("Positionné à 90°")
-    time.sleep(2)
-    Ab.set_angle(180)
-    print("Positionné à 180°")
-    time.sleep(2)
-    Ab.set_angle(0)
+    time.sleep(1)
+    Ab.PWMSERVO.ChangeDutyCycle(Ab.set_angle(120))
+    print("Positionné à 120°")
+    time.sleep(1)
+    Ab.PWMSERVO.ChangeDutyCycle(Ab.set_angle(0))
     print("Positionné à 0°")
+    time.sleep(1)
     status = "movement successful"
 except KeyboardInterrupt:
     print("Interruption par l'utilisateur.")
