@@ -36,7 +36,7 @@ def save_selected_steps_to_file(directions, filename):
 # Paramètres
 origin = "48.8224, 2.2748"  # Coordonnées pour Paris (latitude, longitude)
 destination = "48.67912602858551, 2.3860270345466024"  # Coordonnées pour Lyon (latitude, longitude)
-api_key = "AIzaSyD6WRlNBTn27rEoYbIAlxw9U_Nr_iNqLJc"
+api_key = "APIKEY"
 
 
 # Obtenir les directions
