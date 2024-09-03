@@ -1,31 +1,40 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import RPi.GPIO as GPIO
-import time
+import time,sys
+sys.path.append('/home/christian/WebControl/modules/')
+from AlphaBot import AlphaBot
+Ab = AlphaBot()
 
-# Définir la broche GPIO pour le signal du servo-moteur
-SERVO_PIN = 27
+status = "initialization"
+try:
+    Ab.set_angle(0)
+    print("Positionné à 0°")
+    time.sleep(2)
+    Ab.set_angle(90)
+    print("Positionné à 90°")
+    time.sleep(2)
+    Ab.set_angle(180)
+    print("Positionné à 180°")
+    time.sleep(2)
+    Ab.set_angle(0)
+    print("Positionné à 0°")
+    status = "movement successful"
+except KeyboardInterrupt:
+    print("Interruption par l'utilisateur.")
+    status = "interrupted"
+except Exception as e:
+    print(f"Erreur lors de l'exécution: {e}")
+    status = "error"
+finally:
+    Ab.PWMSERVO.stop() 
+    Ab.cleanup()
 
-def setup():
-    GPIO.setmode(GPIO.BCM)
-    GPIO.setup(SERVO_PIN, GPIO.OUT)
+# Vérification finale et affichage du statut
+if status == "movement successful":
+    print("Le composant fonctionne correctement.")
+    fonctionnement_ok = True
+else:
+    print(f"Le composant a rencontré un problème: {status}.")
+    fonctionnement_ok = False
 
-def set_angle(angle):
-    pwm = GPIO.PWM(SERVO_PIN, 50)  # Fréquence PWM de 50 Hz
-    pwm.start(2.5)  # Position neutre (angle de 0 degrés)
-    duty_cycle = angle / 18.0 + 2.5  # Convertir l'angle en devoir (duty cycle)
-    pwm.ChangeDutyCycle(duty_cycle)
-    time.sleep(0.5)  # Attendre que le servo atteigne la position désirée
-    pwm.stop()
-
-if __name__ == '__main__':
-    try:
-        setup()
-        while True:
-            # Faire tourner le servo-moteur de 0 à 180 degrés avec un pas de 30 degrés
-            for angle in range(0, 181, 30):
-                print("Rotation du servo moteur à {} degrés".format(angle))
-                set_angle(angle)
-                time.sleep(1)
-    except KeyboardInterrupt:
-        GPIO.cleanup()
+Ab.enregistrer_resultats(sys.argv[0], fonctionnement_ok, status)

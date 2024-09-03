@@ -1,0 +1,455 @@
+[
+  {
+    "distance": {
+      "text": "0.1 km",
+      "value": 141
+    },
+    "duration": {
+      "text": "1 min",
+      "value": 37
+    },
+    "end_location": {
+      "lat": 48.82129579999999,
+      "lng": 2.2737025
+    },
+    "html_instructions": "Head <b>southwest</b> on <b>Rue de l'Abbé Grégoire</b> toward <b>Rue de la Glacière</b>",
+    "polyline": {
+      "points": "kq~hHsj{LdAxBDHP`@@@JTDHDHDFLXBFJPJP"
+    },
+    "start_location": {
+      "lat": 48.82214339999999,
+      "lng": 2.2751386
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "0.2 km",
+      "value": 231
+    },
+    "duration": {
+      "text": "1 min",
+      "value": 64
+    },
+    "end_location": {
+      "lat": 48.821996,
+      "lng": 2.276619
+    },
+    "html_instructions": "Sharp <b>left</b> onto <b>Rue d'Alembert</b>",
+    "maneuver": "turn-sharp-left",
+    "polyline": {
+      "points": "cl~hHsa{L@M@I?K?K?GAIAKAEAKAKIk@AEE_@AECSc@sDMs@GUEMCKCGKSY{@"
+    },
+    "start_location": {
+      "lat": 48.82129579999999,
+      "lng": 2.2737025
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "0.4 km",
+      "value": 397
+    },
+    "duration": {
+      "text": "1 min",
+      "value": 71
+    },
+    "end_location": {
+      "lat": 48.8230712,
+      "lng": 2.2815447
+    },
+    "html_instructions": "Continue onto <b>Rue de l'Abbé Derry</b>",
+    "polyline": {
+      "points": "op~hH{s{LKFIs@COAM?O@y@@a@?u@CeAAg@AUCq@CSAQCWEYG]ESMg@ACQu@EOWgAa@}BAKCMAECESk@Qa@"
+    },
+    "start_location": {
+      "lat": 48.821996,
+      "lng": 2.276619
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "70 m",
+      "value": 70
+    },
+    "duration": {
+      "text": "1 min",
+      "value": 21
+    },
+    "end_location": {
+      "lat": 48.8234637,
+      "lng": 2.2822848
+    },
+    "html_instructions": "Continue onto <b>Rue du Chevalier de la Barre</b>",
+    "polyline": {
+      "points": "ew~hHsr|LUm@M_@EKM_@CGCC?AAAAACAEE"
+    },
+    "start_location": {
+      "lat": 48.8230712,
+      "lng": 2.2815447
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "0.2 km",
+      "value": 160
+    },
+    "duration": {
+      "text": "1 min",
+      "value": 41
+    },
+    "end_location": {
+      "lat": 48.8248221,
+      "lng": 2.2819013
+    },
+    "html_instructions": "Turn <b>left</b> onto <b>Av. du Général de Gaulle</b>/<wbr/><b>D71</b>",
+    "maneuver": "turn-left",
+    "polyline": {
+      "points": "sy~hHgw|L_@Je@Ja@LQFG@_@HC@EB_@NC@WJIBA@A?A?A?A?A?AAA?AA?AAAACGK"
+    },
+    "start_location": {
+      "lat": 48.8234637,
+      "lng": 2.2822848
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "0.4 km",
+      "value": 407
+    },
+    "duration": {
+      "text": "1 min",
+      "value": 82
+    },
+    "end_location": {
+      "lat": 48.8219346,
+      "lng": 2.2853073
+    },
+    "html_instructions": "Turn <b>right</b> onto <b>Bd du Lycée</b>/<wbr/><b>D50</b>",
+    "maneuver": "turn-right",
+    "polyline": {
+      "points": "cb_iH{t|Lb@g@`DcEpFcHZ_@tAcBVU"
+    },
+    "start_location": {
+      "lat": 48.8248221,
+      "lng": 2.2819013
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "0.4 km",
+      "value": 424
+    },
+    "duration": {
+      "text": "1 min",
+      "value": 83
+    },
+    "end_location": {
+      "lat": 48.8204157,
+      "lng": 2.2905512
+    },
+    "html_instructions": "Turn <b>left</b> onto <b>Rue Antoine Fratacci</b>/<wbr/><b>D50</b>",
+    "maneuver": "turn-left",
+    "polyline": {
+      "points": "ap~hHej}L?EAG?E?A?C?I?G?ALuBD[BYDW@ADU?CVeAh@wBZsAZoAFSJc@Jm@@ELk@@EVgA`@_BFWFWFSJ]"
+    },
+    "start_location": {
+      "lat": 48.8219346,
+      "lng": 2.2853073
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "1.0 km",
+      "value": 960
+    },
+    "duration": {
+      "text": "3 mins",
+      "value": 203
+    },
+    "end_location": {
+      "lat": 48.8253839,
+      "lng": 2.3004907
+    },
+    "html_instructions": "At the roundabout, take the <b>4th</b> exit onto <b>Rue Jean Bleuzen</b>/<wbr/><b>D130</b>",
+    "maneuver": "roundabout-right",
+    "polyline": {
+      "points": "sf~hH}j~L@@@?@?@@@?@?@?@?@?@ABA@A@A@A@A@A@C?A@A?A@A?C?A@A?A?C?A?C?C?AAC?A?CAA?CAA?AACAAACAAA?AA?AA?A?AAC?A?A?A?A@O_@GOGSGOGQe@eAOQi@kAMYO[o@sAEIYk@Wk@Yk@MUEMo@qAO]_@u@Qc@GMM[Sg@EKGSQ_@_@eACGEKIQm@_B?AM[IQ?CGKOc@G[AKAGAEAG_AeCM_@]eA[w@CICIGQIQM_@Si@GSYy@KSKWEICGIMIIIIECEEIAG?"
+    },
+    "start_location": {
+      "lat": 48.8204157,
+      "lng": 2.2905512
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "2.2 km",
+      "value": 2230
+    },
+    "duration": {
+      "text": "4 mins",
+      "value": 219
+    },
+    "end_location": {
+      "lat": 48.8192297,
+      "lng": 2.3292151
+    },
+    "html_instructions": "Turn <b>right</b> to merge onto <b>Blvd Périphérique</b>",
+    "maneuver": "ramp-right",
+    "polyline": {
+      "points": "se_iHai`MU@VeB@A?A^mCJq@TiBD]Jw@Fs@RsB?ACa@J}@BUPqAJs@VoBFe@@C\\iCNaAJu@Fe@D[PmAHi@Da@DU@GVqBl@mEr@gF\\aCb@eD`@yCb@yCJ{@VgBRwAFe@F]N_ATiAJg@PcAD[Ly@VmBRwAZwBD]Hg@@MRuADUFi@NgANmA@ERuBH_A@MLgA@M@OLy@D_@Jq@Js@?CHo@F_@R{AHm@L}@Hm@Jw@PoAVgBFa@DYR}A?AVeB?CLgAVuBRuAJ{@"
+    },
+    "start_location": {
+      "lat": 48.8253839,
+      "lng": 2.3004907
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "5.9 km",
+      "value": 5935
+    },
+    "duration": {
+      "text": "5 mins",
+      "value": 287
+    },
+    "end_location": {
+      "lat": 48.7705456,
+      "lng": 2.3452899
+    },
+    "html_instructions": "Keep <b>right</b> at the fork to continue on <b>A6a</b>",
+    "maneuver": "fork-right",
+    "polyline": {
+      "points": "e_~hHs|eMLI@AFa@BGF]@IFa@DQHYJw@Fg@@GBK@M@IFg@LeABYFg@@IDY@M?CHi@BO@I@G@IBIBMDQDMBK@IDMBIBGBGFMDKBGBIDIHODIJQHOLQHOHOPWNWLSLSLSHOBALUDKDGFOFOBGBKJWBKBK@GBI@IFg@L}@H_A@CBY@C?GBIBK@G?A@C@A@C?A@A@A@A@ABCBABCDAJEFCFCDADAFAFAD?B?B?B?B?D?D@D?D@FBH@FBLDh@PVHRFn@TTHTFVHVFTFTFVBVDT@J@P@N?J?L?B?VAFAPAVCTCVGVEDCPETIRIVKRKBCTMVQHGJI@AJIFEDC?ADCHKFIBA@A?A@A@EdBwAnBaBJKNM?AHIHGrAkAJInBeBPOVUVSPQj@e@RQJKFGNMpAiAJIHIROFGROTQPMbAm@~@e@TKZM^O`@Mj@QTGTEVGVE`@G\\E\\ED?RANADAXAx@AxC?dA@l@?T?v@?l@?n@@r@?X?P?T?X?X@VAN?ZATATAPAH?LAPCLCNCTEB?NEr@QBARGRIRI\\MRKFEb@URMRKPMJILKJINKFGDCr@m@HGb@_@f@c@TQTQTQPMVOFELINIl@[TKVKRIXKBAf@Oh@OVE@A^G`@G\\Ep@G^Ah@AL?H?P?N?X@H?L@XBD?`@D`@Dj@JhDh@NBzATH@XDz@N\\Dt@Lf@Dl@DH?J?F@f@?L@^Cb@Ab@C`@EB?ZEh@I\\INCPEJCTG`@ONE~@]PITIlBu@NIz@[f@QlAe@bBo@p@WTIf@ONGf@O`@K`@K\\I@?BAh@KREFATE\\EZEh@If@GTC^CFAb@CLAb@AVCN?H?TAJ?fA?^?P?^@X@f@B^@N@v@Ff@B^B\\BrBL`@BN@n@DVB^BB?|@F|@FL?F@R@F@bAFZ@VBl@D`AFf@DF?d@DJ?x@Df@DF@H?dAFX@B@T@fNz@v@Fn@Df@BJ@N@P@D?RBfAHR@n@FF@z@L"
+    },
+    "start_location": {
+      "lat": 48.8192297,
+      "lng": 2.3292151
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "4.4 km",
+      "value": 4403
+    },
+    "duration": {
+      "text": "3 mins",
+      "value": 193
+    },
+    "end_location": {
+      "lat": 48.7348556,
+      "lng": 2.3655247
+    },
+    "html_instructions": "Keep <b>right</b> at the fork to continue on <b>A106</b>, follow signs for <b>Aéroport Orly</b>",
+    "maneuver": "fork-right",
+    "polyline": {
+      "points": "}nthHaaiMJX@?HBf@NTFp@X@?`@Pj@V`@Rf@XB@f@VVNXPDBTLTLPJRH\\LVHZH\\Hh@JNBF@P@j@Db@Bl@?@?d@Al@AX?z@AFAJ?d@CNBfEWLCf@GB?TEZGVCREj@Mp@Sn@QTI^Oh@SBAb@Q\\Q\\QVOVMv@e@LKl@c@NKZUf@c@VUPQb@a@DEj@k@hAgAzB{B`B_BjEgE\\]nGkGtAuAPQFGVUPSx@w@hAiAJI\\]JIJK@Ax@w@PSRSt@s@nDmD~B}BXYZYJM|@}@zAyABA^_@VYj@i@`@a@XY\\]ZW~F}FtAsAJKXYJKh@i@TSj@k@FIDCRSBCHITS`@c@FG|@{@v@w@TULKTUXYDCJKNOJKJIZYPONMPOROLKd@[^UDCFEFEBAPKLIZO`@STK\\M^On@Uj@STGbBi@JEPGRGFADCLEh@Q|@Yp@SXKVITGdA]^MXI~@Yz@YNG`@M`@M^Mv@Wl@QDA\\Mx@WVI`@MXKNERG|@YJE|Bu@PEHE@?DA|Bu@lBm@l@O"
+    },
+    "start_location": {
+      "lat": 48.7705456,
+      "lng": 2.3452899
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "3.1 km",
+      "value": 3099
+    },
+    "duration": {
+      "text": "5 mins",
+      "value": 271
+    },
+    "end_location": {
+      "lat": 48.7074919,
+      "lng": 2.3713861
+    },
+    "html_instructions": "Exit on the <b>left</b> onto <b>N7</b> toward <b>Évry</b>/<wbr/><b>Paray-Vieille-Poste</b>/<wbr/><b>Athis-Mons</b>",
+    "maneuver": "ramp-left",
+    "polyline": {
+      "points": "{omhHo_mMHU@ABCrAe@PIZKvAg@d@S@A`@]l@QbA]`@MXIpBo@\\MVIj@QdA]BAhA]vAe@XKf@OhBk@BAv@SnC{@fBk@RGzBq@vBs@n@Un@Un@Uh@O^MjC{@LEb@O\\INEXI^IHCJCJALCNCLCNAtAMD?FAfHOb@Ab@Ab@AjDIZAZ?vEKvCGbECF?hBGl@CPBRAd@AfAEj@CTAD?zAItCGn@A~@Ch@AD?TC^?~AEnCEfACb@A^?VAZAnAG\\CTARAx@?pAC|@CTAR?z@Cr@A~@Ax@A"
+    },
+    "start_location": {
+      "lat": 48.7348556,
+      "lng": 2.3655247
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "0.4 km",
+      "value": 391
+    },
+    "duration": {
+      "text": "1 min",
+      "value": 45
+    },
+    "end_location": {
+      "lat": 48.7039886,
+      "lng": 2.3716268
+    },
+    "html_instructions": "Keep <b>left</b>",
+    "maneuver": "keep-left",
+    "polyline": {
+      "points": "ydhhHednMJGTAbAAlAC~AEl@Al@CxBED?NAZAF?NAtAEd@CJ@"
+    },
+    "start_location": {
+      "lat": 48.7074919,
+      "lng": 2.3713861
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "1.7 km",
+      "value": 1674
+    },
+    "duration": {
+      "text": "4 mins",
+      "value": 258
+    },
+    "end_location": {
+      "lat": 48.6890215,
+      "lng": 2.3710222
+    },
+    "html_instructions": "Merge onto <b>Av. François Mitterrand</b>/<wbr/><b>N7</b><div style=\"font-size:0.9em\">Continue to follow N7</div>",
+    "maneuver": "merge",
+    "polyline": {
+      "points": "}nghHuenMh@Av@?TARAvBEjBEp@AzAEx@?VAb@AdAEv@AjACh@?^?p@?f@Ax@AbAAJ?RBTBn@J~C^lANz@FbAJr@H|ARp@HB@xBXjAN^D`@FH@`BPx@LxCZp@Db@@F?Z@R@zB@\\ATAx@Ij@K\\G\\GHAh@Kf@MXKVI"
+    },
+    "start_location": {
+      "lat": 48.7039886,
+      "lng": 2.3716268
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "0.8 km",
+      "value": 829
+    },
+    "duration": {
+      "text": "2 mins",
+      "value": 116
+    },
+    "end_location": {
+      "lat": 48.6828291,
+      "lng": 2.3771681
+    },
+    "html_instructions": "Keep <b>left</b> to continue on <b>Av. de la Cr de France</b>/<wbr/><b>N7</b><div style=\"font-size:0.9em\">Continue to follow N7</div>",
+    "maneuver": "keep-left",
+    "polyline": {
+      "points": "kqdhH{anMxAm@LG@?\\Sd@UzA{@VOf@c@fAeAjAmAf@g@PSNQp@y@Z_@\\_@`@c@TWj@u@^g@h@q@@?RWd@k@TWl@u@h@q@Za@jAyA`AiAp@y@LQ"
+    },
+    "start_location": {
+      "lat": 48.6890215,
+      "lng": 2.3710222
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "0.4 km",
+      "value": 413
+    },
+    "duration": {
+      "text": "1 min",
+      "value": 34
+    },
+    "end_location": {
+      "lat": 48.6799071,
+      "lng": 2.3806212
+    },
+    "html_instructions": "Keep <b>left</b>",
+    "maneuver": "keep-left",
+    "polyline": {
+      "points": "ujchHihoMLWn@y@FIHI\\c@Za@f@m@jAwAZa@Za@rAcBt@_ARUTYf@m@b@i@BELI"
+    },
+    "start_location": {
+      "lat": 48.6828291,
+      "lng": 2.3771681
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "0.2 km",
+      "value": 193
+    },
+    "duration": {
+      "text": "1 min",
+      "value": 34
+    },
+    "end_location": {
+      "lat": 48.6785366,
+      "lng": 2.3822313
+    },
+    "html_instructions": "Merge onto <b>Av. du Général de Gaulle</b>/<wbr/><b>N7</b>",
+    "maneuver": "merge",
+    "polyline": {
+      "points": "mxbhH{}oMzD{ELOfAuA"
+    },
+    "start_location": {
+      "lat": 48.6799071,
+      "lng": 2.3806212
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "0.5 km",
+      "value": 476
+    },
+    "duration": {
+      "text": "2 mins",
+      "value": 108
+    },
+    "end_location": {
+      "lat": 48.68178,
+      "lng": 2.385035
+    },
+    "html_instructions": "Turn <b>left</b> onto <b>Rue Carnot</b>",
+    "maneuver": "turn-left",
+    "polyline": {
+      "points": "{obhH}gpMKSQYS[IQCQ?SAOAu@?SAI?CAEEIIYACAACCA?A?A?A?C@EBIFIHURA@C?A?A?AACCQWQQY[IIGEMGGCSKuAi@[MgAc@m@U]KQCQCWCC?GAGAAAAAA??AAACMAE?C?C?E@G?K"
+    },
+    "start_location": {
+      "lat": 48.6785366,
+      "lng": 2.3822313
+    },
+    "travel_mode": "DRIVING"
+  },
+  {
+    "distance": {
+      "text": "0.3 km",
+      "value": 305
+    },
+    "duration": {
+      "text": "1 min",
+      "value": 30
+    },
+    "end_location": {
+      "lat": 48.67910939999999,
+      "lng": 2.3859466
+    },
+    "html_instructions": "Turn <b>right</b> onto <b>Quai de Châtillon</b>/<wbr/><b>D931</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+    "maneuver": "turn-right",
+    "polyline": {
+      "points": "cdchHmypMXGr@IBAbBY~A[bAYNERGx@YrAe@HE"
+    },
+    "start_location": {
+      "lat": 48.68178,
+      "lng": 2.385035
+    },
+    "travel_mode": "DRIVING"
+  }
+]

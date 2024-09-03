@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Test CARIA1</title>
+    <title>Home CARIA1</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -35,10 +35,19 @@
         </div>
     </nav>
     <div class="container text-center my-4">
-        <h1>Interface de tests</h1>
-        <div class="row">
-            <div class="col">
-                <hr><p class="footer fw-bold">CARIA Project | Cunat-Brulé © 2023-2024 Tous droits réservés
+        <h1 class="mb-4">Interface d'accès</h1>
+        <div class="card mx-auto shadow-lg" style="max-width: 500px;">
+            <div class="card-body">
+                <h3 class="h5">Dernière validation reçue</h3>
+                <p class="mb-2"><strong>Nom:</strong> {{name}}</p>
+                <p class="mb-2"><strong>Confiance:</strong> {{confidence}}</p>
+                <p><strong>Status:</strong> {{status}}</p>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col">
+                    <hr><p class="footer fw-bold">CARIA Project | Cunat-Brulé © 2023-2024 Tous droits réservés
+                </div>
             </div>
         </div>
     </div>

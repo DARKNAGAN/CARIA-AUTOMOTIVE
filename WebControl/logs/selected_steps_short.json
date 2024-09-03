@@ -1,0 +1,22 @@
+[
+  {
+    "distance_value": 197,
+    "maneuver": "maneuver-unspecified"
+  },
+  {
+    "distance_value": 1313,
+    "maneuver": "turn-right"
+  },
+  {
+    "distance_value": 507,
+    "maneuver": "ramp-right"
+  },
+  {
+    "distance_value": 4465,
+    "maneuver": "merge"
+  },
+  {
+    "distance_value": 5935,
+    "maneuver": "fork-right"
+  }
+]

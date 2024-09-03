@@ -31,6 +31,7 @@ ExplorerHAT==0.4.2
 Flask==1.1.2
 Flask-SocketIO==5.3.6
 fourletterphat==0.1.0
+future==1.0.0
 gpiozero==1.6.2
 greenlet==3.0.3
 guizero==1.1.1
@@ -40,6 +41,7 @@ idna==2.10
 ipykernel==5.4.3
 ipython==7.20.0
 ipython_genutils==0.2.0
+iso8601==2.1.0
 isort==5.6.4
 itsdangerous==1.1.0
 jedi==0.18.0
@@ -96,7 +98,7 @@ pyOpenSSL==20.0.1
 pyparsing==2.4.7
 PyQt5==5.15.2
 PyQt5-sip==12.8.1
-pyserial==3.5b0
+pyserial==3.5
 pysmbc==1.0.23
 python-apt==2.2.1
 python-dateutil==2.8.1
@@ -122,6 +124,7 @@ semver==2.10.2
 Send2Trash==1.6.0b1
 sense-emu==1.2
 sense-hat==2.6.0
+serial==0.0.97
 simple-websocket==1.0.0
 simplejpeg==1.6.4
 simplejson==3.17.2

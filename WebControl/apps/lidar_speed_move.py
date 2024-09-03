@@ -2,17 +2,16 @@ import time
 import sys
 sys.path.append('/home/christian/WebControl/modules/')
 from AlphaBot import AlphaBot
-
 Ab = AlphaBot()
 
 # Variable de statut pour indiquer le bon fonctionnement
 status = "initialization"
 
 # Durée limite d'exécution en secondes
-time_limit = 7
+time_limit = 10
 start_time = time.time()
-
 try:
+    # Envoi de la commande pour initialiser le capteur
     while True:
         # Vérification si le temps limite est dépassé
         if time.time() - start_time > time_limit:
@@ -27,8 +26,15 @@ try:
                     Ab.LIDAR_MODULE.read()  # Lecture et ignore des octets supplémentaires
                 print("Distance à l'avant du véhicule:", Dist_Total, "cm")
                 status = "measurement successful"
-            time.sleep(1)
-            Ab.LIDAR_MODULE.reset_input_buffer()
+                
+                # Ajuster la vitesse en fonction de la distance LIDAR
+                vitesse_ajustee = Ab.ajuster_vitesse_selon_distance(Dist_Total)
+                
+                if vitesse_ajustee > 0:
+                    Ab.forward(0.1, vitesse_ajustee)  # Avancer avec la vitesse ajustée
+                else:
+                    Ab.emergencystop()  # S'arrêter si trop proche d'un obstacle
+                Ab.LIDAR_MODULE.reset_input_buffer()
 except KeyboardInterrupt:
     print("Interruption par l'utilisateur.")
     status = "interrupted"

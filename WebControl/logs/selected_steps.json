@@ -1,0 +1,78 @@
+[
+  {
+    "distance_value": 141,
+    "maneuver": "maneuver-unspecified"
+  },
+  {
+    "distance_value": 231,
+    "maneuver": "turn-sharp-left"
+  },
+  {
+    "distance_value": 397,
+    "maneuver": "maneuver-unspecified"
+  },
+  {
+    "distance_value": 70,
+    "maneuver": "maneuver-unspecified"
+  },
+  {
+    "distance_value": 160,
+    "maneuver": "turn-left"
+  },
+  {
+    "distance_value": 407,
+    "maneuver": "turn-right"
+  },
+  {
+    "distance_value": 424,
+    "maneuver": "turn-left"
+  },
+  {
+    "distance_value": 960,
+    "maneuver": "roundabout-right"
+  },
+  {
+    "distance_value": 2230,
+    "maneuver": "ramp-right"
+  },
+  {
+    "distance_value": 5935,
+    "maneuver": "fork-right"
+  },
+  {
+    "distance_value": 4403,
+    "maneuver": "fork-right"
+  },
+  {
+    "distance_value": 3099,
+    "maneuver": "ramp-left"
+  },
+  {
+    "distance_value": 391,
+    "maneuver": "keep-left"
+  },
+  {
+    "distance_value": 1674,
+    "maneuver": "merge"
+  },
+  {
+    "distance_value": 829,
+    "maneuver": "keep-left"
+  },
+  {
+    "distance_value": 413,
+    "maneuver": "keep-left"
+  },
+  {
+    "distance_value": 193,
+    "maneuver": "merge"
+  },
+  {
+    "distance_value": 476,
+    "maneuver": "turn-left"
+  },
+  {
+    "distance_value": 305,
+    "maneuver": "turn-right"
+  }
+]

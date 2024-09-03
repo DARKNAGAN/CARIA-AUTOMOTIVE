@@ -1,0 +1,1808 @@
+[
+    {
+        "date": "2024-08-30 17:54:47",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": false,
+        "status": "error"
+    },
+    {
+        "date": "2024-08-30 18:00:03",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": false,
+        "status": "error"
+    },
+    {
+        "date": "2024-08-30 18:01:46",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-08-30 18:06:57",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-08-30 18:08:02",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-08-30 18:09:58",
+        "nom": "tests/servo.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-08-30 18:10:08",
+        "nom": "tests/servo.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-08-30 18:10:42",
+        "nom": "tests/servo.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-08-30 18:34:30",
+        "nom": "tests/servo.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-08-30 18:34:36",
+        "nom": "tests/servo.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-08-30 18:35:12",
+        "nom": "tests/servo.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-08-30 18:35:19",
+        "nom": "tests/servo.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:21:15",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 12:29:04",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 12:33:58",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 12:34:10",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:35:01",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:35:16",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:50:10",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:50:26",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:50:52",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:51:09",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:51:18",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:52:07",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:52:24",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:53:06",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:53:17",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:53:27",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:53:38",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:53:48",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:54:14",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:54:25",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:54:36",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:55:04",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:55:15",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:55:33",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:55:42",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:55:52",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:56:21",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:56:36",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:57:16",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:57:26",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 12:57:58",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 13:02:10",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 13:02:22",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 13:03:01",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 13:04:55",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 13:05:07",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 13:05:32",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 13:06:23",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 13:06:43",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 13:07:28",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 13:07:37",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 13:08:22",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 13:08:33",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 14:16:41",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 14:23:01",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 14:27:23",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 14:27:50",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "error"
+    },
+    {
+        "date": "2024-09-01 14:31:33",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "error"
+    },
+    {
+        "date": "2024-09-01 14:38:17",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "error"
+    },
+    {
+        "date": "2024-09-01 14:39:19",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "error"
+    },
+    {
+        "date": "2024-09-01 14:49:24",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "error"
+    },
+    {
+        "date": "2024-09-01 14:59:28",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "error"
+    },
+    {
+        "date": "2024-09-01 15:03:02",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "error"
+    },
+    {
+        "date": "2024-09-01 15:07:49",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:08:01",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:11:10",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:11:30",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:13:42",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:13:51",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:17:21",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:17:39",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:18:21",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:18:30",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:18:33",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:18:38",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:19:19",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:24:50",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:28:18",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:29:50",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:29:55",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:31:05",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 15:31:39",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 16:06:14",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 16:08:49",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 16:09:05",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 16:10:58",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 16:12:42",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 16:12:56",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 16:13:34",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": true,
+        "status": "Access successful"
+    },
+    {
+        "date": "2024-09-01 16:15:31",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": true,
+        "status": "Access successful"
+    },
+    {
+        "date": "2024-09-01 16:21:35",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 16:21:40",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": true,
+        "status": "Access successful"
+    },
+    {
+        "date": "2024-09-01 16:22:33",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": true,
+        "status": "Access successful"
+    },
+    {
+        "date": "2024-09-01 16:28:02",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "test successful"
+    },
+    {
+        "date": "2024-09-01 16:31:02",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": true,
+        "status": "no obstacle"
+    },
+    {
+        "date": "2024-09-01 16:31:12",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": true,
+        "status": "obstacle detected"
+    },
+    {
+        "date": "2024-09-01 17:11:43",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": true,
+        "status": "obstacle detected"
+    },
+    {
+        "date": "2024-09-01 17:13:06",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": true,
+        "status": "no obstacle"
+    },
+    {
+        "date": "2024-09-01 17:16:07",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-01 17:16:29",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-01 17:20:12",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-01 18:45:55",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "erreur s\u00e9rie"
+    },
+    {
+        "date": "2024-09-01 23:20:10",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": false,
+        "status": "no obstacle detected"
+    },
+    {
+        "date": "2024-09-01 23:20:47",
+        "nom": "tests/motor_speed_move.py",
+        "fonctionnement_ok": true,
+        "status": "move successful"
+    },
+    {
+        "date": "2024-09-01 23:21:06",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": true,
+        "status": "Access successful"
+    },
+    {
+        "date": "2024-09-01 23:21:24",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-01 23:29:16",
+        "nom": "tests/motor_speed_move.py",
+        "fonctionnement_ok": true,
+        "status": "move successful"
+    },
+    {
+        "date": "2024-09-01 23:29:42",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-01 23:30:33",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 23:30:38",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": true,
+        "status": "Access successful"
+    },
+    {
+        "date": "2024-09-01 23:40:27",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 23:40:49",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "initialization"
+    },
+    {
+        "date": "2024-09-01 23:41:21",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "initialization"
+    },
+    {
+        "date": "2024-09-01 23:41:37",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "initialization"
+    },
+    {
+        "date": "2024-09-01 23:42:31",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-01 23:43:37",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-01 23:43:59",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 00:34:41",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 00:36:15",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 00:38:31",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 00:38:46",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 00:39:04",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 00:39:15",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 00:40:24",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 00:40:52",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 00:43:14",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 00:43:53",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 00:44:05",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 00:55:57",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 01:02:52",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 01:03:33",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 01:03:42",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 01:09:45",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 01:10:05",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 01:10:15",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 01:12:14",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 01:12:54",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 01:13:10",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 01:13:29",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 01:14:10",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 01:14:41",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 01:15:05",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 01:18:49",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 01:54:34",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 01:57:47",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 01:57:58",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 01:58:40",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": true,
+        "status": "Access successful"
+    },
+    {
+        "date": "2024-09-02 01:58:48",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "Access denied"
+    },
+    {
+        "date": "2024-09-02 01:58:59",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": true,
+        "status": "Access successful"
+    },
+    {
+        "date": "2024-09-02 02:00:36",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 02:05:57",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 02:06:17",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 02:07:53",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 02:13:54",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 02:18:51",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 09:47:37",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 09:48:04",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 09:51:44",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 09:53:37",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 10:15:00",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 10:15:06",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 10:50:09",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 12:20:43",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 12:21:09",
+        "nom": "tests/motor_speed_move.py",
+        "fonctionnement_ok": true,
+        "status": "move successful"
+    },
+    {
+        "date": "2024-09-02 12:21:21",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 12:21:32",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": true,
+        "status": "obstacle detected"
+    },
+    {
+        "date": "2024-09-02 12:26:36",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 15:36:32",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 15:36:47",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 15:37:32",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 15:47:26",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 15:48:29",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 15:48:44",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 15:49:04",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 16:03:47",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 16:04:44",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 16:42:42",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 16:42:52",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 17:39:04",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 17:44:43",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 17:49:19",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 18:10:49",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 18:11:36",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 18:11:38",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 18:11:39",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 18:11:52",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 18:11:55",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 18:19:44",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 19:04:46",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 19:05:24",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 19:16:31",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 19:18:50",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 19:20:15",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 19:21:26",
+        "nom": "tests/motor_speed_move.py",
+        "fonctionnement_ok": true,
+        "status": "move successful"
+    },
+    {
+        "date": "2024-09-02 19:25:45",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": false,
+        "status": "no obstacle detected"
+    },
+    {
+        "date": "2024-09-02 19:30:10",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 19:32:14",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": true,
+        "status": "measurement successful"
+    },
+    {
+        "date": "2024-09-02 19:33:44",
+        "nom": "tests/motor_speed_move.py",
+        "fonctionnement_ok": true,
+        "status": "move successful"
+    },
+    {
+        "date": "2024-09-02 19:34:24",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": false,
+        "status": "no obstacle detected"
+    },
+    {
+        "date": "2024-09-02 19:35:13",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": true,
+        "status": "no obstacle detected"
+    },
+    {
+        "date": "2024-09-02 19:35:35",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": true,
+        "status": "obstacle detected"
+    },
+    {
+        "date": "2024-09-02 19:40:03",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "time limit reached"
+    },
+    {
+        "date": "2024-09-02 19:44:24",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 19:44:26",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 19:44:38",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "initialization"
+    },
+    {
+        "date": "2024-09-02 19:47:11",
+        "nom": "apps/infrared_obstacle_avoidance.py",
+        "fonctionnement_ok": true,
+        "status": "operation successful"
+    },
+    {
+        "date": "2024-09-02 19:47:49",
+        "nom": "apps/infrared_obstacle_avoidance.py",
+        "fonctionnement_ok": true,
+        "status": "emergency stop successful"
+    },
+    {
+        "date": "2024-09-02 19:48:10",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": true,
+        "status": "measurement successful"
+    },
+    {
+        "date": "2024-09-02 19:50:45",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": true,
+        "status": "obstacle detected"
+    },
+    {
+        "date": "2024-09-02 19:51:01",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": true,
+        "status": "measurement successful"
+    },
+    {
+        "date": "2024-09-02 19:51:26",
+        "nom": "tests/motor_speed_move.py",
+        "fonctionnement_ok": true,
+        "status": "move successful"
+    },
+    {
+        "date": "2024-09-02 19:51:48",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 19:52:15",
+        "nom": "apps/infrared_obstacle_avoidance.py",
+        "fonctionnement_ok": true,
+        "status": "operation successful"
+    },
+    {
+        "date": "2024-09-02 19:52:48",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": true,
+        "status": "measurement successful"
+    },
+    {
+        "date": "2024-09-02 19:55:32",
+        "nom": "apps/infrared_obstacle_avoidance.py",
+        "fonctionnement_ok": true,
+        "status": "operation successful"
+    },
+    {
+        "date": "2024-09-02 19:56:04",
+        "nom": "apps/infrared_obstacle_avoidance.py",
+        "fonctionnement_ok": true,
+        "status": "operation successful"
+    },
+    {
+        "date": "2024-09-02 19:57:07",
+        "nom": "apps/infrared_obstacle_avoidance.py",
+        "fonctionnement_ok": true,
+        "status": "operation successful"
+    },
+    {
+        "date": "2024-09-02 20:06:25",
+        "nom": "apps/infrared_obstacle_avoidance.py",
+        "fonctionnement_ok": true,
+        "status": "operation successful"
+    },
+    {
+        "date": "2024-09-02 20:07:37",
+        "nom": "apps/infrared_obstacle_avoidance.py",
+        "fonctionnement_ok": true,
+        "status": "operation successful"
+    },
+    {
+        "date": "2024-09-02 20:08:04",
+        "nom": "apps/infrared_obstacle_avoidance.py",
+        "fonctionnement_ok": true,
+        "status": "emergency stop successful"
+    },
+    {
+        "date": "2024-09-02 20:14:00",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": true,
+        "status": "obstacle detected"
+    },
+    {
+        "date": "2024-09-02 20:14:17",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": true,
+        "status": "measurement successful"
+    },
+    {
+        "date": "2024-09-02 20:14:40",
+        "nom": "tests/motor_speed_move.py",
+        "fonctionnement_ok": true,
+        "status": "move successful"
+    },
+    {
+        "date": "2024-09-02 20:14:52",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 20:15:02",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": true,
+        "status": "obstacle detected"
+    },
+    {
+        "date": "2024-09-02 20:25:48",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": true,
+        "status": "measurement successful"
+    },
+    {
+        "date": "2024-09-02 20:26:15",
+        "nom": "apps/infrared_obstacle_avoidance.py",
+        "fonctionnement_ok": true,
+        "status": "operation successful"
+    },
+    {
+        "date": "2024-09-02 20:26:33",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": true,
+        "status": "measurement successful"
+    },
+    {
+        "date": "2024-09-02 20:28:18",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": true,
+        "status": "measurement successful"
+    },
+    {
+        "date": "2024-09-02 20:28:32",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": true,
+        "status": "measurement successful"
+    },
+    {
+        "date": "2024-09-02 20:28:36",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": true,
+        "status": "no obstacle detected"
+    },
+    {
+        "date": "2024-09-02 20:31:32",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 20:31:42",
+        "nom": "apps/infrared_obstacle_avoidance.py",
+        "fonctionnement_ok": true,
+        "status": "operation successful"
+    },
+    {
+        "date": "2024-09-02 20:31:56",
+        "nom": "apps/infrared_obstacle_avoidance.py",
+        "fonctionnement_ok": true,
+        "status": "operation successful"
+    },
+    {
+        "date": "2024-09-02 20:32:13",
+        "nom": "apps/infrared_obstacle_avoidance.py",
+        "fonctionnement_ok": true,
+        "status": "operation successful"
+    },
+    {
+        "date": "2024-09-02 20:46:38",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": true,
+        "status": "no obstacle detected"
+    },
+    {
+        "date": "2024-09-02 20:51:45",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": true,
+        "status": "obstacle detected"
+    },
+    {
+        "date": "2024-09-02 20:52:00",
+        "nom": "tests/infrared_obstacle_module.py",
+        "fonctionnement_ok": true,
+        "status": "no obstacle detected"
+    },
+    {
+        "date": "2024-09-02 20:52:25",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": true,
+        "status": "measurement successful"
+    },
+    {
+        "date": "2024-09-02 20:52:47",
+        "nom": "tests/lidar_module.py",
+        "fonctionnement_ok": true,
+        "status": "measurement successful"
+    },
+    {
+        "date": "2024-09-02 20:53:50",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 21:01:24",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 21:04:05",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 21:04:26",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 21:04:57",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 21:05:57",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 21:06:12",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 21:07:22",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 21:08:36",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 21:08:47",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 21:08:57",
+        "nom": "tests/servo_motor.py",
+        "fonctionnement_ok": true,
+        "status": "movement successful"
+    },
+    {
+        "date": "2024-09-02 22:06:38",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 22:16:13",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 22:16:23",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 22:16:44",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 22:17:17",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 22:19:05",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 23:01:49",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": true,
+        "status": "Access successful"
+    },
+    {
+        "date": "2024-09-02 23:01:55",
+        "nom": "tests/rfid_open_door.py",
+        "fonctionnement_ok": true,
+        "status": "Access successful"
+    },
+    {
+        "date": "2024-09-02 23:06:01",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 23:06:33",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 23:22:22",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 23:26:51",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 23:31:19",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 23:39:06",
+        "nom": "apps/itineraire_suivre_emergency.py",
+        "fonctionnement_ok": false,
+        "status": "initialization"
+    },
+    {
+        "date": "2024-09-02 23:52:54",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 23:53:36",
+        "nom": "apps/itineraire_suivre_emergency.py",
+        "fonctionnement_ok": false,
+        "status": "initialization"
+    },
+    {
+        "date": "2024-09-02 23:57:20",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-02 23:59:02",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 00:11:24",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "initialization"
+    },
+    {
+        "date": "2024-09-03 00:11:59",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 00:13:52",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": true,
+        "status": "measurement successful"
+    },
+    {
+        "date": "2024-09-03 00:24:37",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": true,
+        "status": "measurement successful"
+    },
+    {
+        "date": "2024-09-03 00:54:47",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:00:15",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:04:31",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:04:40",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:05:27",
+        "nom": "apps/itineraire_suivre_emergency.py",
+        "fonctionnement_ok": false,
+        "status": "initialization"
+    },
+    {
+        "date": "2024-09-03 01:15:20",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:16:13",
+        "nom": "apps/itineraire_suivre_emergency.py",
+        "fonctionnement_ok": false,
+        "status": "initialization"
+    },
+    {
+        "date": "2024-09-03 01:18:10",
+        "nom": "apps/itineraire_suivre_emergency.py",
+        "fonctionnement_ok": false,
+        "status": "initialization"
+    },
+    {
+        "date": "2024-09-03 01:20:22",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:22:51",
+        "nom": "apps/itineraire_suivre_emergency.py",
+        "fonctionnement_ok": true,
+        "status": "scenario successful"
+    },
+    {
+        "date": "2024-09-03 01:23:42",
+        "nom": "apps/itineraire_suivre_emergency.py",
+        "fonctionnement_ok": true,
+        "status": "scenario successful"
+    },
+    {
+        "date": "2024-09-03 01:28:18",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:29:09",
+        "nom": "apps/itineraire_suivre_emergency.py",
+        "fonctionnement_ok": true,
+        "status": "scenario successful"
+    },
+    {
+        "date": "2024-09-03 01:37:02",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:37:37",
+        "nom": "apps/itineraire_suivre_emergency.py",
+        "fonctionnement_ok": false,
+        "status": "error"
+    },
+    {
+        "date": "2024-09-03 01:41:54",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:42:14",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:42:25",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:42:45",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:49:06",
+        "nom": "apps/lidar_speed_move.py",
+        "fonctionnement_ok": false,
+        "status": "initialization"
+    },
+    {
+        "date": "2024-09-03 01:49:39",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:52:08",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:52:16",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:57:18",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 01:57:27",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    },
+    {
+        "date": "2024-09-03 02:00:09",
+        "nom": "apps/scenario_rfid.py",
+        "fonctionnement_ok": false,
+        "status": "interrupted"
+    }
+]

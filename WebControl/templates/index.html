@@ -1,90 +1,194 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>admin AUTO1</title>
+    <title>Home CARIA1</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="fonts/SegmentLED.ttf">
-    <script src="js/jquery.js"></script>   
+    <script src="js/jquery.js"></script>
 </head>
 <body>
-<div class="container" align="center">
-    <h1>Interface d'administration</h1>
-    <div class="card-group">
-        <div class="card text-bg-light mb-3" style="min-width: 350px; max-width: 25rem;">
-            <div class="card-header">Vitesse de déplacement</div>
-            <div class="card-body">
-                <div class="speedometer">
-                    <div class="pointer" id="pointer">
-                        <img src="images/pointer.png" alt="Needle">
-                    </div>
-                </div>
-                <div class="counter led-counter" id="counter">050</div>
-                <input title="speed-level" type="range" min="20" max="100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="http://192.168.253.194:8000/">CARIA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="http://192.168.253.194:8000/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://192.168.253.194:8000/access">Accès</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="http://192.168.253.194:8081">Vidéo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://192.168.253.194:8000/tests">Test</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="card text-bg-light mb-3" style="min-width: 380px; max-width: 25rem;">
-            <div class="card-header">Contrôle des déplacements</div>
-            <div class="card-body">
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col">
-                            <button id="forward" class="button_cmd glyphicon glyphicon-arrow-up"> Avancer </button>
+    </nav>
+    <div class="container my-4">
+        <div class="row g-4 justify-content-center text-center">
+            <h1 class="mb-4">Interface d'administration</h1>
+            <div class="col-lg-4">
+                    <div class="card text-bg-light mb-3">
+                        <div class="card-header fw-bold">Vitesse de déplacement</div>
+                        <div class="card-body align-self-center">
+                            <div class="speedometer">
+                                <div class="pointer" id="pointer">
+                                    <img src="images/pointer.png" alt="Needle">
+                                </div>
+                            </div>
+                            <div class="counter led-counter" id="counter">030</div>
+                            <input title="speed-level" value="30" type="range" min="25" max="50">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <button id='turnleft' class="button_cmd glyphicon glyphicon-arrow-left"> Gauche </button>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-bg-light shadow-sm">
+                    <div class="card-header fw-bold">Contrôle des déplacements</div>
+                    <div class="card-body">
+                        <div class="row mb-3">
+                            <div class="col">
+                                <button id="forward" class="button_cmd glyphicon glyphicon-arrow-up fw-bold"> Avancer </button>
+                            </div>
                         </div>
-                        <div class="col">
-                            <button id='stop' class="button_cmd"> STOP </button>    
-                        </div>
-                        <div class="col">
-                            <button id='turnright' class="button_cmd glyphicon glyphicon-arrow-right"> Droite </button>
-                        </div>
-                    </div>
                         <div class="row">
-                        <div class="col">
-                            <button id='backward' class="button_cmd glyphicon glyphicon-arrow-down"> Reculer </button>    
+                            <div class="col">
+                                <button id='turnleft' class="button_cmd glyphicon glyphicon-arrow-left fw-bold"> Gauche </button>
+                            </div>
+                            <div class="col">
+                                <button id='stop' class="button_cmd fw-bold"> STOP </button>    
+                            </div>
+                            <div class="col">
+                                <button id='turnright' class="button_cmd glyphicon glyphicon-arrow-right fw-bold"> Droite </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button id='backward' class="button_cmd glyphicon glyphicon-arrow-down fw-bold"> Reculer </button>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="col-lg-4">
+                <div class="card text-bg-light shadow-sm">
+                    <div class="card-header fw-bold">Caméra</div>
+                    <div class="card-body">
+                        <img class="rounded mx-auto d-block" src="http://192.168.253.194:8081" alt="Camera" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <h1 class="my-4 text-center">Test de fonctionnement</h1>
+            <div class="col-lg-4">
+                <div class="card text-bg-light shadow-sm">
+                    <div class="card-header text-center fw-bold">Composants</div>
+                    <div class="card-body">
+                        <div class="d-flex flex-column">
+                            <div class="form-check form-switch my-2 fw-bold">
+                                <input class="form-check-input" type="checkbox" id="testServo">
+                                <label class="form-check-label ps-4" for="testServo">Servo moteur</label>
+                            </div>
+                            <div class="form-check form-switch my-2 fw-bold">
+                                <input class="form-check-input" type="checkbox" id="testRFIDCarDoor">
+                                <label class="form-check-label ps-4" for="testRFIDCarDoor">Ouverture de porte par RFID</label>
+                            </div>
+                            <div class="form-check form-switch my-2 fw-bold">
+                                <input class="form-check-input" type="checkbox" id="testRotor">
+                                <label class="form-check-label ps-4" for="testRotor">Moteurs et vitesse Gauche|Droite</label>
+                            </div>
+                            <div class="form-check form-switch my-2 fw-bold">
+                                <input class="form-check-input" type="checkbox" id="testLidar">
+                                <label class="form-check-label ps-4" for="testLidar">Module lidar</label>
+                            </div>
+                            <div class="form-check form-switch my-2 fw-bold">
+                                <input class="form-check-input" type="checkbox" id="testObstacle">
+                                <label class="form-check-label ps-4" for="testObstacle">Module d'obstacles</label>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>     
-        <div class="card text-bg-light mb-3" style="min-width: 350px; max-width: 25rem;">
-            <div class="card-header">Caméra</div>
-            <div class="card-body">
-                <img class="rounded mx-auto d-block" src="http://192.168.74.194:8081" width="100%"/>
+            <div class="col-lg-4">
+                <div class="card text-bg-light shadow-sm">
+                    <div class="card-header text-center fw-bold">Fonctionnalités</div>
+                    <div class="card-body">
+                        <div class="d-flex flex-column">
+                            <div class="form-check form-switch my-2 fw-bold">
+                                <input class="form-check-input" type="checkbox" id="appEmergencyStop">
+                                <label class="form-check-label ps-4" for="appEmergencyStop">Arrêt d'urgence</label>
+                            </div>
+                            <div class="form-check form-switch my-2 fw-bold">
+                                <input class="form-check-input" type="checkbox" id="appLidarSpeed">
+                                <label class="form-check-label ps-4" for="appLidarSpeed">Module lidar</label>
+                            </div>
+                            <div class="form-check form-switch my-2 fw-bold">
+                                <input class="form-check-input" type="checkbox" id="appRFID">
+                                <label class="form-check-label ps-4" for="appRFID">Module RFID Lecture/Ecriture</label>
+                            </div>                      
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <h1>Test de fonctionnement</h1>
-    <div class="row row-cols-1 row-cols-md-2 g-2">
-        <div class="card text-bg-light m-4" style="max-width: 30rem;">
-            <div class="card-header">Composants</div>
-            <div class="card-body">
-                <div class="button-container">
-                    <label for='obstacle'><input type="checkbox" id='obstacle' class="button_fct btn btn-primary">Module d'obstacles</label>
-                    <label for='motor'><input type="checkbox" id='motor' class="button_fct btn btn-primary">Moteurs et vitesse Guauche|Droite</label>
-                    <label for='servo'><input type="checkbox" id='servo' class="button_fct btn btn-primary">Servo moteur</label>
-                    <label for='lidar'><input type="checkbox" id='lidar' class="button_fct btn btn-primary">Module lidar</label>
-                    <label for='rfidrw'><input type="checkbox" id='rfidrw' class="button_fct btn btn-primary">Module RFID Lecture/Ecriture</label>
+            <div class="col-lg-4 text-center">
+                <div class="card text-bg-light shadow-sm">
+                    <div class="card-header fw-bold">Dépannage</div>
+                    <div class="card-body">
+                        <form id="rebootForm" action="/restartPi" method="post" class="mb-2">
+                            <button type="button" id="restartPi" class="btn btn-danger w-100" onclick="confirmReboot()">Redémarrer le Raspberry Pi</button>
+                        </form>
+                        <form id="motionForm" action="/restartMotion" method="post">
+                            <button type="submit" id="restartMotion" class="btn btn-warning w-100">Redémarrer Motion</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="card text-bg-light m-4" style="max-width: 30rem;">
-            <div class="card-header">Fonctionnalités</div>
-            <div class="card-body">
-                <div class="button-container">
-                    <label for='ITO'><input type="checkbox" id='ITO' class="button_fct btn btn-primary">Suivi d'objet</label>
-                    <label for='IOA'><input type="checkbox" id='IOA' class="button_fct btn btn-primary">Evitement d'obstacle</label>
+        <div class="row text-center">
+            <h1 class="my-4">Historique des programmes</h1>
+            <!-- Tableau pour afficher les résultats des tests -->
+            <div class="col-lg-10 mx-auto">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover shadow-sm">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Date</th>
+                                <th>Nom du Test</th>
+                                <th>Fonctionnement OK</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            % for result in results:
+                            <tr>
+                                <td>{{ result['date'] }}</td>
+                                <td>{{ result['nom'] }}</td>
+                                <td>{{ 'Oui' if result['fonctionnement_ok'] else 'Non' }}</td>
+                                <td>{{ result['status'] }}</td>
+                            </tr>
+                            % end
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
+        <div class="row text-center">
+            <div class="col">
+                <hr><p class="footer fw-bold">CARIA Project | Cunat-Brulé © 2023-2024 Tous droits réservés
+            </div>
+        </div>
     </div>
-</div>
+<script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

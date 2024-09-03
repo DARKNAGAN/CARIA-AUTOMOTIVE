@@ -1,3 +1,12 @@
 crontab -e
-@reboot sudo /usr/bin/motion
-@reboot sh /home/christian/WebControl/webcontrol-launch.sh > /home/christian/WebControl/logs/log.txt 2>&1
+    @reboot /usr/bin/motion
+    @reboot /usr/bin/motion >> /home/christian/WebControl/logs/motionlogs.txt 2>&1
+    @reboot sh /home/christian/WebControl/webcontrol-launch.sh >> /home/christian/WebControl/logs/log.txt 2>&1
+
+ -----------
+ 
+sudo visudo
+    christian ALL=(ALL) NOPASSWD: /sbin/reboot
+    christian ALL=(ALL) NOPASSWD: /usr/bin/pkill
+    christian   ALL=NOPASSWD: /usr/bin/python3 /home/christian/WebControl/main.py
+    christian   ALL=NOPASSWD: /usr/bin/motion
